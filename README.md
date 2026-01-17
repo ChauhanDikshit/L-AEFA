@@ -29,6 +29,14 @@ L-AEFA introduces four core improvements:
 4. **DE/current-to-pbest/1 mutation for duplicate removal**  
    Duplicate individuals are replaced via DE mutation (instead of random reinitialization), improving diversity.
 
+###
+<p align="center">
+  <img src="figures/overview.png" width="600">
+</p>
+<p align="center">
+  <em><b>Figure 1.</b> Framework of L-AEFA.</em>
+</p>
+
 ---
 
 ## What this repository provides
@@ -135,13 +143,27 @@ Typical flow:
 ## Figures
 ### Overview
 <p align="center">
-  <img src="figures/overview.png" width="600">
+  <img src="figures/overview2.png" width="600">
 </p>
 <p align="center">
   <em><b>Figure 2.</b> The schematic procedure of the proposed L-AEFA.</em>
 </p>
 
-###
+### Parameters' Nature
+<p align="center">
+  <img src="figures/parameter.png" width="800">
+</p>
+<p align="center">
+  <em><b>Figure 3.</b> Variation in self-adaptive Coulomb’s constant 𝐾 and 𝐾′ 𝑏𝑒𝑠𝑡 individuals with different values of their parameters.</em>
+</p>
+
+### Results
+<p align="center">
+  <img src="figures/results.png" width="800">
+</p>
+<p align="center">
+  <em><b>Figure 4.</b> The bar charts of average statistical results on which L-AEFA performs better (Win), similar (Equal), and worse (Lose) than others.</em>
+</p>
 
 ---
 ## Citation
