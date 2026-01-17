@@ -1,5 +1,5 @@
 # L-AEFA
-# L-AEFA — Self-adaptive & Locally-guided Artificial Electric Field Algorithm (MATLAB)
+## Self-adaptive & Locally-guided Artificial Electric Field Algorithm (MATLAB)
 
 MATLAB implementation of **L-AEFA (Locally-guided Artificial Electric Field Algorithm)** from:
 
@@ -18,7 +18,7 @@ DOI: **10.1016/j.knosys.2025.113835**
 L-AEFA introduces four core improvements:
 
 1. **Self-adaptive Coulomb’s constant (per individual)**  
-   Each agent has its own Coulomb constant that adapts using its **success/failure history** (aggregative learning).
+   Each agent has its own Coulomb constant, which adapts based on its success/failure history (aggregative learning).
 
 2. **Locally-informed learning (distance-index guidance)**  
    Agents are arranged using **positional relationships** among the **historical best**, **current worst**, and other individuals to construct enhanced elite sets (e.g., **K′best**), strengthening the electrostatic force.
@@ -49,25 +49,25 @@ L-AEFA introduces four core improvements:
 
 ## Suggested repository layout
 
-.
+```.
 ├── src/
-│ ├── LAEFA.m # main algorithm (L-AEFA)
-│ ├── Efield.m # electric field/acceleration components (a1,a2,a3)
-│ ├── initialization.m # population & velocity init
-│ ├── charge.m # charge computation
-│ ├── Kconstant.m # self-adaptive Coulomb constant update
-│ ├── Agg_move.m # velocity/position update + bounds
-│ └── main_LAEFA.m # main run file
+│   ├── LAEFA.m            # main algorithm (L-AEFA)
+│   ├── Efield.m           # electric field / acceleration components (a1,a2,a3)
+│   ├── initialization.m   # population & velocity initialization
+│   ├── charge.m           # charge / mass computation
+│   ├── Kconstant.m        # self-adaptive Coulomb constant update
+│   └── Agg_move.m         # velocity/position update + bounds handling
 ├── examples/
-│ ├── main_LAEFA.m # compile it
+│   └── main_LAEFA.m       # main run script/demo
 ├── figures/
-│ ├── overview.png
-│ ├── ablation.png
-│ ├── convergence.png
-│ └── diversity.png
+│   ├── overview.png
+│   ├── ablation.png
+│   ├── convergence.png
+│   └── diversity.png
 ├── CITATION.cff
 ├── LICENSE
 └── README.md
+```
 
 ---
 
@@ -168,7 +168,7 @@ Typical flow:
 ---
 ## Citation
 ```bibtex
-@article{Chauhan2025LAEFA,
+@article{Chauhan2025self,
   title   = {Self-adaptive and locally-guided artificial electric field algorithm for global optimization with aggregative learning},
   author  = {Chauhan, Dikshit and Shivani},
   journal = {Knowledge-Based Systems},
