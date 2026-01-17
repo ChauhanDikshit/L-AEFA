@@ -143,7 +143,7 @@ Typical flow:
 ## Figures
 ### Overview
 <p align="center">
-  <img src="figures/overview2.png" width="600">
+  <img src="figures/overview2.png" width="800">
 </p>
 <p align="center">
   <em><b>Figure 2.</b> The schematic procedure of the proposed L-AEFA.</em>
@@ -151,7 +151,7 @@ Typical flow:
 
 ### Parameters' Nature
 <p align="center">
-  <img src="figures/parameter.png" width="800">
+  <img src="figures/parammeters.png" width="800">
 </p>
 <p align="center">
   <em><b>Figure 3.</b> Variation in self-adaptive Coulomb’s constant 𝐾 and 𝐾′ 𝑏𝑒𝑠𝑡 individuals with different values of their parameters.</em>
