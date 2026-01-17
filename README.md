@@ -76,6 +76,7 @@ L-AEFA introduces four core improvements:
 - MATLAB R2018b+ (recommended)
 - **Statistics and Machine Learning Toolbox** (if you use `pdist` / `squareform`)
 - (Optional) toolboxes depending on your benchmarks/visualization scripts
+- **Use/download the same input file from https://github.com/ChauhanDikshit/MGSA-EM-EAAI-2026**
 
 ---
 
@@ -179,10 +180,13 @@ Typical flow:
 }
 ```
 ---
-## Contact
-Dikshit chauhan
+## 🤝 Contact
+For any queries, suggestions, or collaborations:
+#### Dikshit chauhan
 
-Email: dikshitchauhan608@gmail.com
+📧 Email: dikshitchauhan608@gmail.com
+
+🌐 https://sites.google.com/view/dikshitchauhan/home
 
 Issues and pull requests are welcome.
 
